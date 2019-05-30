@@ -1,0 +1,14 @@
+#menu1{
+	position: relative;
+}
+#menu1 li:hover ul#menu2{
+	display: block;
+}
+#menu1 li ul#menu2{
+	background-color: #222D32;
+	display: none;
+	position: absolute;
+	width: 150px;
+	left: 230px;
+	top: 0px;
+}
